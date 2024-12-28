@@ -2,32 +2,36 @@
 # 💫 https://github.com/JaKooLit 💫 #
 # Hyprland Packages #
 
-# edit your packages desired here. 
+# edit your packages desired here.
 # WARNING! If you remove packages here, dotfiles may not work properly.
 # and also, ensure that packages are present in AUR and official Arch Repo
 
 # add packages wanted here
 Extra=(
-
+  bat
+  ghostty
+  neovim
+  zellij
+  tmux
 )
 
-hypr_package=( 
+hypr_package=(
   #aylurs-gtk-shell
   cliphist
-  curl 
-  grim 
-  gvfs 
+  curl
+  grim
+  gvfs
   gvfs-mtp
   imagemagick
-  inxi 
+  inxi
   jq
   kitty
   kvantum
-  nano  
-  network-manager-applet 
-  pamixer 
+  nano
+  network-manager-applet
+  pamixer
   pavucontrol
-  pipewire-alsa 
+  pipewire-alsa
   playerctl
   polkit-gnome
   python-requests
@@ -36,31 +40,31 @@ hypr_package=(
   qt6ct
   qt6-svg
   rofi-wayland
-  slurp 
-  swappy 
-  swaync 
+  slurp
+  swappy
+  swaync
   swww
-  wallust 
+  wallust
   waybar
   wget
   wl-clipboard
   wlogout
   xdg-user-dirs
-  xdg-utils 
+  xdg-utils
   yad
 )
 
 # the following packages can be deleted. however, dotfiles may not work properly
 hypr_package_2=(
-  brightnessctl 
+  brightnessctl
   btop
   cava
   eog
   fastfetch
   gnome-system-monitor
-  mousepad 
+  mousepad
   mpv
-  mpv-mpris 
+  mpv-mpris
   nvtop
   nwg-look
   pacman-contrib
@@ -121,4 +125,3 @@ for PKG1 in "${hypr_package[@]}" "${hypr_package_2[@]}" "${Extra[@]}"; do
 done
 
 clear
-

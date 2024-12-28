@@ -4,10 +4,10 @@
 
 ## -- Make sure you use the right answer or install script will fail ###
 # Make sure proper AUR Helper is use NO Upperscript. Either paru or yay only is accepted
-# The rest Change to Y for Yes and N for No. 
+# The rest Change to Y for Yes and N for No.
 
 ### -Type AUR helper
-### yay or paru 
+### yay or paru
 aur_helper="yay"
 ############ use : "Y" or "N"
 ###-Do you have any nvidia gpu in your system?
@@ -25,7 +25,7 @@ xdph="Y"
 ###-Install zsh, oh-my-zsh & (Optional) pokemon-colorscripts?
 zsh="Y"
 ###-Installing in a Asus ROG Laptops?
-rog="N"
+rog="Y"
 ###-Do you want to download pre-configured Hyprland dotfiles?
 dots="Y"
 
@@ -36,14 +36,14 @@ blacklist_nouveau="Y"
 # Do you want to set Thunar as the default file manager? (y/n): "
 thunar_default="Y"
 ### XDG-desktop-portal-KDE & GNOME (if installed) should be manually disabled or removed! Script cant remove nor disable it.
-### Would you like to try to remove other XDG-Desktop-Portal-Implementations? (y/n) 
+### Would you like to try to remove other XDG-Desktop-Portal-Implementations? (y/n)
 XDPH1="Y"
 ### OPTIONAL - Would you like to install SDDM themes? (y/n)
 install_sddm_theme="Y"
 ### " This script will add your user to the 'input' group."
 ### " Please note that adding yourself to the 'input' group might be necessary for waybar keyboard-state functionality."
 input_group_choid="Y"
-### OPTIONAL - Do you want to add Pokemon color scripts? (y/n): 
+### OPTIONAL - Do you want to add Pokemon color scripts? (y/n):
 pokemon_choice="Y"
 ### Do you want to upgrade to the latest version? (y/n) - This is for the dotfiles
 upgrade_choice="Y"

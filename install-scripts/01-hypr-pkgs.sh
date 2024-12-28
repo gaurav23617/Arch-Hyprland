@@ -13,6 +13,7 @@ Extra=(
   neovim
   zellij
   tmux
+  stow
 )
 
 hypr_package=(
